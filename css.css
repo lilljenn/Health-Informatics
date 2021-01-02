@@ -40,7 +40,7 @@ p{
 }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
+    display: block;
   }
   .topnav a.icon {
     float: right;
