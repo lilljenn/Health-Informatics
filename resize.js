@@ -1,3 +1,8 @@
 function showLinks() {
-document.getElementById("demo").innerHTML = "My First JavaScript";
+var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
