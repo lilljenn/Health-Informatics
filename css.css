@@ -31,8 +31,8 @@
 }
 
 .title{
- font-family: "Lucida Handwriting";
- font-size: 50px;
+  font-family: "Lucida Handwriting", "Papyrus", monospace;
+  font-size: 50px;
 }
 p{
  font-family: Arial;
