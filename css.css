@@ -61,10 +61,11 @@ body {margin:0;font-family:Arial}
   }
 }
 .title{
- 
+ text-indent: 50px;
   font-size: 50px;
 }
 p{
+  text-indent: 50px;
  font-family: "Arial";
  font-size: 20px;
 }
