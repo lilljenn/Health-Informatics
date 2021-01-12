@@ -61,10 +61,12 @@ body {margin:0;font-family:Arial}
   }
 }
 .center{
-    display: block;
+  width: 50%;
+  max-width: 200px;
+  height: auto;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 .title{
   font-size: 50px;
