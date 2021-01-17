@@ -7,4 +7,4 @@
             });
         }
 */
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
+document.getElementById("genes").innerHTML = "Hello JavaScript!";
