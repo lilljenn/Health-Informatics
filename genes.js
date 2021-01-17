@@ -7,12 +7,12 @@
             });
         }
 */
-$.ajax({
-  type: "POST",
-  url: "~/genes.py",
-  data: { param: text}
-}).done(function( o ) {
-   // do something
-      document.getElementById("genes").innerHTML = "Hello JavaScript!";
-});
+ function goPython(){
+            $.ajax({
+              url: "genes.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
 
