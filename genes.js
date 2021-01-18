@@ -8,7 +8,7 @@
         }
 */
 function goPython() {
-  document.getElementById("genes").innerHTML = "";
+  document.getElementById("genes").innerHTML = "inner html";
   document.getElementById("genes").href = "lilljenn.github.io/HealthInformatics/genes.py";
   document.getElementById("genes").target = "_blank";
 }
