@@ -6,7 +6,7 @@
              alert('finished python script');;
             });
         }
-*/
+
 function postData(input) {
     $.ajax({
         type: "POST",
@@ -20,6 +20,17 @@ function callbackFunc(response) {
     // do something with the response
    document.getElementById("genes").innerHTML = "response";
     
+}
+*/
+function goPython() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "lilljenn.github.io/Health-Informatics/genes.py", true);
+  xhttp.send();
 }
 /*
 
