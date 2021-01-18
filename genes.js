@@ -23,14 +23,13 @@ function callbackFunc(response) {
 }
 */
 function goPython() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("genes").innerHTML = this;
-    }
-  };
-  xhttp.open("GET", "lilljenn.github.io/Health-Informatics/genes.py", true);
-  xhttp.send();
+$(document).ready(function(){
+  $("button").click(function(){
+    $.get("lilljenn.github.io/Health-Informatics/genes.py", function(data, status){
+      alert("Data: " + data + "\nStatus: " + status);
+    });
+  });
+});
 }
 /*
 
