@@ -18,13 +18,13 @@ function postData(input) {
 
 function callbackFunc(response) {
     // do something with the response
-    console.log(response);
+   document.getElementById("genes").innerHTML = "response";
     
 }
 /*
 
 function goPython() {
-  document.getElementById("genes").innerHTML = my_function();
+  document.getElementById("genes").innerHTML = "response";
   document.getElementById("genes").href = "lilljenn.github.io/Health-Informatics/genes.py";
   document.getElementById("genes").target = "_blank";
 }
