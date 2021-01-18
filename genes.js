@@ -7,6 +7,21 @@
             });
         }
 */
+function postData(input) {
+    $.ajax({
+        type: "POST",
+        url: "lilljenn.github.io/Health-Informatics/genes.py",
+        data: { param: input },
+        success: callbackFunc
+    });
+}
+
+function callbackFunc(response) {
+    // do something with the response
+    console.log(response);
+    
+}
+/*
 
 function goPython() {
   document.getElementById("genes").innerHTML = my_function();
@@ -15,3 +30,4 @@ function goPython() {
 }
 
 
+*/
