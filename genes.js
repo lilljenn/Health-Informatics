@@ -22,7 +22,7 @@ function callbackFunc(response) {
     
 }
 */
-function goPython() {
+//function goPython() {
 $(document).ready(function(){
   $("button").click(function(){
     $.get("lilljenn.github.io/Health-Informatics/genes.py", function(data, status){
@@ -30,7 +30,7 @@ $(document).ready(function(){
     });
   });
 });
-}
+//}
 /*
 
 function goPython() {
