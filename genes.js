@@ -24,9 +24,9 @@ function callbackFunc(response) {
 */
 //function goPython() {
 $(document).ready(function(){
-  $("button").click(function(){
-    $.get("lilljenn.github.io/Health-Informatics/genes.py", function(data, status){
-      alert("Data: " + data + "\nStatus: " + status);
+  $(document.GetElementById("genes")).click(function(){
+    $.get("lilljenn.github.io/Health-Informatics/genes.py", function(data){
+      alert("Data: " + data);
     });
   });
 });
