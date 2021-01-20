@@ -7,7 +7,7 @@ function loadDoc() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.open("GET", "lilljenn.github.io/Health-Informatics/genes.py", true);
   xhttp.send();
 }
 //}
