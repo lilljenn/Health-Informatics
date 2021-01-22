@@ -24,16 +24,10 @@
  if(array_key_exists('button1', $_POST)) { 
             button1(); 
         } 
-        else if(array_key_exists('button2', $_POST)) { 
-            button2(); 
-        } 
         function button1() { 
             $command = escapeshellcmd('lilljenn.github.io/Health-Informatics/genes.py');
 $output = shell_exec($command);
 echo $output; 
-        } 
-        function button2() { 
-            echo "This is Button2 that is selected"; 
         }  
     ?> 
     
