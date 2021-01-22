@@ -21,8 +21,10 @@
       Catatonia is a serious mental health condition that can become life-threatening. From a medical perspective, catatonia can be classified into 3 different types: akinetic catatonia, excited catatonia, and malignant catatonia. 
     </p>
     <?php
-      
-        if(isset($_POST['button1'])) { 
+      if(array_key_exists('button1', $_POST)) { 
+            button1(); 
+        } 
+ function button1() { 
             echo "This is Button1 that is selected"; 
         } 
     ?> 
