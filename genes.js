@@ -2,7 +2,7 @@
 
 // Initialize the HTTP request.
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'send-ajax-data.php');
+xhr.open('GET', 'lilljenn.github.io/Health-Informatics/genes.py');
 
 // Track the state changes of the request.
 xhr.onreadystatechange = function () {
@@ -18,12 +18,12 @@ xhr.onreadystatechange = function () {
 };
 
 // Send the request to send-ajax-data.php
-xhr.send(null);
-function goPython() {
-  document.getElementById("genes").innerHTML = "response";
-  document.getElementById("genes").href = "lilljenn.github.io/Health-Informatics/genes.py";
-  document.getElementById("genes").target = "_blank";
-}
+//xhr.send(null);
+//function goPython() {
+//  document.getElementById("genes").innerHTML = "response";
+//  document.getElementById("genes").href = "lilljenn.github.io/Health-Informatics/genes.py";
+//  document.getElementById("genes").target = "_blank";
+//}
 
 
 */
