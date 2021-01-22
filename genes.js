@@ -9,7 +9,7 @@ function ProcessSimpleCgi()
     $.ajax(
     {
         type: "POST",
-        url: "/genes.py",
+        url: "lilljenn.github.io/Health-Informatics/genes.py",
         data: params,
         dataType: "html",
         success: function (html)
