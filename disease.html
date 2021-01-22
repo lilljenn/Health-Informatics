@@ -21,12 +21,23 @@
       Catatonia is a serious mental health condition that can become life-threatening. From a medical perspective, catatonia can be classified into 3 different types: akinetic catatonia, excited catatonia, and malignant catatonia. 
     </p>
     
-  <form method="post"> 
-        <input type="submit" name="button1"
-                class="button" value="Button1" /> 
-          
-    </form> 
 
+    
+    <div>
+        <span class="rowName">Number One: </span><input id="param1" type="text">
+    </div>
+    <div>
+        <span class="rowName">Number Two: </span><input id="param2" type="text">
+    </div>
+
+    <div><input type="button" value="Submit Query" onclick="ProcessSimpleCgi()"></div>
+
+    <ul id="paramsList"></ul>
+    <div id = "debug"></div>
+
+
+    
+    
 <p id="genes">
     </p>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
