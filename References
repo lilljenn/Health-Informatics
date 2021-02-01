@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://lilljenn.github.io/Health-Informatics/css.css">
+    <link rel="icon" href="https://lilljenn.github.io/Health-Informatics/logo.jpg.png">
+  </head>
+  <body>
+   <div class="topnav" id="myTopnav">
+  <a class="active" href="/Health-Informatics/index" onclick="showLinks()">Home</a>
+  <a href="/Health-Informatics/disease" onclick="showLinks()">Disease</a>
+  <a href="/Health-Informatics/medication" onclick="showLinks()">Medication</a>
+<a href="/Health-Informatics/summary" onclick="showLinks()">Summary</a>
+ <a href="/Health-Informatics/prediction" onclick="showLinks()">Prediction</a>
+  <a href="/Health-Informatics/about" onclick="showLinks()">About</a>
+   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="showLinks()">&#9776;</a>                                  
+ </div>   
+    <p class="title">
+    References
+    </p>
+    <br/>
+    <p>
+    Bergmann, A., &amp; Steller, H. (2010, October 26). Apoptosis, stem cells, and tissue regeneration. Retrieved February 01, 2021, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2991142/.
+    Bhandari, S., MD. (2019, January 24). Catatonia: Symptoms, Causes, Diagnosis, Treatment. Retrieved February 01, 2021, from https://www.webmd.com/schizophrenia/what-is-catatonia#1.
+    UniProt ConsortiumEuropean Bioinformatics InstituteProtein Information ResourceSIB Swiss Institute of Bioinformatics. (2020, December 02). GRAM domain-containing protein 4. Retrieved February 01, 2021, from https://www.uniprot.org/uniprot/Q6IC98.
+    Verrier, J. D., Jackson, T. C., Gillespie, D. G., Janesko-Feldman, K., Bansal, R., Goebbels, S., Nave, K. A., Kochanek, P. M., & Jackson, E. K. (2013). Role of CNPase in the oligodendrocytic extracellular 2',3'-cAMP-adenosine pathway. Glia, 61(10), 1595–1606. https://doi.org/10.1002/glia.22523.
+    </p>
+    </html>
+    
+    
